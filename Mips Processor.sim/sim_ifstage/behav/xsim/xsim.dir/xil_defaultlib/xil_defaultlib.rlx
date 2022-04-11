@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/user/Mips Processor/Mips Processor.srcs/sim_ifstage/new/ifstage_testbench.vhd,1649065110,vhdl,,,,ifstage_testbench,,,,,,,,
+C:/Users/user/Mips Processor/sources/ifstage.vhd,1649065020,vhdl,,,,ifstage,,,,,,,,
+C:/Users/user/Mips Processor/sources/mux_2.vhd,1649064649,vhdl,,,,mux_2,,,,,,,,
+C:/Users/user/Mips Processor/sources/register_32.vhd,1649062545,vhdl,,,,register_32,,,,,,,,
+C:/Users/user/Mips Processor/sources/utils.vhd,1649062913,vhdl,C:/Users/user/Mips Processor/Mips Processor.srcs/sim_ifstage/new/ifstage_testbench.vhd;C:/Users/user/Mips Processor/sources/register_32.vhd,,,constants;vector_array,,,,,,,,

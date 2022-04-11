@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/immed_extender.vhd" \
+"../../../../Mips Processor.srcs/sim_immed_extender/new/immed_extender_testbench.vhd" \
+
+# Do not sort compile order
+nosort

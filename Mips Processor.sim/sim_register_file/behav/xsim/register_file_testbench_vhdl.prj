@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/utils.vhd" \
+"../../../../sources/decoder_5to32.vhd" \
+"../../../../sources/mux_32.vhd" \
+"../../../../sources/register_32.vhd" \
+"../../../../sources/register_file.vhd" \
+"../../../../Mips Processor.srcs/sim_register_file/new/register_file_testbench.vhd" \
+
+# Do not sort compile order
+nosort

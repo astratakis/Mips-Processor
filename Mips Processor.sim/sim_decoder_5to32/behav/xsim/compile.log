@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/utils.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/decoder_5to32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder_5to32'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_decoder_5to32/new/decoder_5to32_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder_5to32_testbench'

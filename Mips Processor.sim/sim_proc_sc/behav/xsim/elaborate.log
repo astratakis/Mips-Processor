@@ -1,0 +1,37 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto e9f7f63b356b404bbc12faf9093ef50c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot proc_sc_sampletest_1_behav xil_defaultlib.proc_sc_sampletest_1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.constants
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.vector_array
+Compiling package ieee.std_logic_textio
+Compiling architecture behavioral of entity xil_defaultlib.register_32 [register_32_default]
+Compiling architecture structural of entity xil_defaultlib.mux_2 [mux_2_default]
+Compiling architecture structural of entity xil_defaultlib.ifstage [ifstage_default]
+Compiling architecture structural of entity xil_defaultlib.decoder_5to32 [decoder_5to32_default]
+Compiling architecture structural of entity xil_defaultlib.mux_32 [mux_32_default]
+Compiling architecture structural of entity xil_defaultlib.register_file [register_file_default]
+Compiling architecture structural of entity xil_defaultlib.immed_extender [immed_extender_default]
+Compiling architecture structural of entity xil_defaultlib.decstage [decstage_default]
+Compiling architecture structural of entity xil_defaultlib.alu [alu_default]
+Compiling architecture structural of entity xil_defaultlib.exstage [exstage_default]
+Compiling architecture structural of entity xil_defaultlib.byte_replacer [byte_replacer_default]
+Compiling architecture structural of entity xil_defaultlib.byte_parser [byte_parser_default]
+Compiling architecture structural of entity xil_defaultlib.memstage [memstage_default]
+Compiling architecture structural of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture syn of entity xil_defaultlib.ram [ram_default]
+Compiling architecture structural of entity xil_defaultlib.control [control_default]
+Compiling architecture structural of entity xil_defaultlib.proc_sc [proc_sc_default]
+Compiling architecture behavioral of entity xil_defaultlib.proc_sc_sampletest_1
+Built simulation snapshot proc_sc_sampletest_1_behav

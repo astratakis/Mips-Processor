@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/byte_replacer.vhd" \
+"../../../../Mips Processor.srcs/sim_byte_replacer/new/byte_replacer_testbench.vhd" \
+
+# Do not sort compile order
+nosort

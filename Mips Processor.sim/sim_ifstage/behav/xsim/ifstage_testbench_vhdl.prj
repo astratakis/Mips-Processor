@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/utils.vhd" \
+"../../../../sources/ifstage.vhd" \
+"../../../../sources/mux_2.vhd" \
+"../../../../sources/register_32.vhd" \
+"../../../../Mips Processor.srcs/sim_ifstage/new/ifstage_testbench.vhd" \
+
+# Do not sort compile order
+nosort

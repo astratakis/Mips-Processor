@@ -1,0 +1,165 @@
+----------------------------------------------------------------------------------
+-- Institution: 	Technical University of Crete
+-- Engineer: 		Andreas Stratakis
+-- 
+-- Create Date: 	03/10/2022 08:40:32 PM
+-- Design Name: 
+-- Module Name: 	proc_sc - Structural
+-- Project Name: 	Mips Processor
+--
+-- Description: 
+-- This is the final implemented single cycle processor. It contains the control
+-- the datapath and a ram.
+--
+----------------------------------------------------------------------------------
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity proc_sc is
+    Port (
+        clock: in std_logic;
+        reset: in std_logic
+    );
+end proc_sc;
+
+architecture Structural of proc_sc is
+
+component datapath is
+    Port (
+        clock: in std_logic;
+        reset: in std_logic;
+        
+        alu_bin_sel: in std_logic;
+        alu_func: in std_logic_vector(3 downto 0);
+        alu_zero: out std_logic;
+        
+        pc_lden: in std_logic;
+        pc_sel: in std_logic;
+        pc: out std_logic_vector(31 downto 0);
+        
+        instruction: in std_logic_vector(31 downto 0);
+        rf_wrdata_sel: in std_logic;
+        rf_b_sel: in std_logic;
+        rf_wren: in std_logic;
+        immed_ext: in std_logic_vector(1 downto 0);
+        
+        mem_wren: in std_logic;
+        byte_op: in std_logic;
+        ram_rddata: in std_logic_vector(31 downto 0);
+        ram_wren: out std_logic;
+        ram_wrdata: out std_logic_vector(31 downto 0);
+        ram_addr: out std_logic_vector(10 downto 0)
+    );
+end component;
+
+component ram is
+    port (
+        clk : in std_logic;
+        inst_addr : in std_logic_vector(10 downto 0);
+        inst_dout : out std_logic_vector(31 downto 0);
+        data_we : in std_logic;
+        data_addr : in std_logic_vector(10 downto 0);
+        data_din : in std_logic_vector(31 downto 0);
+        data_dout : out std_logic_vector(31 downto 0)
+    );
+end component;
+
+component control is
+    Port (
+        instruction: in std_logic_vector(31 downto 0);
+        alu_zero: in std_logic;
+        
+        pc_sel: out std_logic;
+        pc_lden: out std_logic;
+        
+        alu_bin_sel: out std_logic;
+        alu_func: out std_logic_vector(3 downto 0);
+        
+        rf_wrdata_sel: out std_logic;
+        rf_b_sel: out std_logic;
+        rf_wren: out std_logic;
+        immed_ext: out std_logic_vector(1 downto 0);
+        
+        byte_op: out std_logic;
+        mem_wren: out std_logic
+    );
+end component;
+
+signal alu_bin_sel_signal: std_logic;
+signal alu_func_signal: std_logic_vector(3 downto 0);
+signal alu_zero_signal: std_logic;
+
+signal pc_lden_signal: std_logic;
+signal pc_sel_signal: std_logic;
+signal pc_signal: std_logic_vector(31 downto 0);
+
+signal instr_signal: std_logic_vector(31 downto 0);
+
+signal rf_wrdata_sel_signal: std_logic;
+signal rf_b_sel_signal: std_logic;
+signal rf_wren_signal: std_logic;
+signal immed_ext_signal: std_logic_vector(1 downto 0);
+
+signal mem_wren_signal: std_logic;
+signal byte_op_signal: std_logic;
+signal ram_rddata_signal: std_logic_vector(31 downto 0);
+signal ram_wren_signal: std_logic;
+signal ram_wrdata_signal: std_logic_vector(31 downto 0);
+signal ram_addr_signal: std_logic_vector(10 downto 0);
+
+begin
+
+    datapath_component: datapath port map(
+        clock => clock,
+        reset => reset,
+        alu_bin_sel => alu_bin_sel_signal,
+        alu_func => alu_func_signal,
+        alu_zero => alu_zero_signal,
+        pc_lden => pc_lden_signal,
+        pc_sel => pc_sel_signal,
+        pc => pc_signal,
+        instruction => instr_signal,
+        rf_wrdata_sel => rf_wrdata_sel_signal,
+        rf_b_sel => rf_b_sel_signal,
+        rf_wren => rf_wren_signal,
+        immed_ext => immed_ext_signal,
+        
+        mem_wren => mem_wren_signal,
+        byte_op => byte_op_signal,
+        ram_rddata => ram_rddata_signal,
+        ram_wren => ram_wren_signal,
+        ram_wrdata => ram_wrdata_signal,
+        ram_addr => ram_addr_signal
+    );
+    
+    random_access_memory: ram port map(
+        clk => clock,
+        inst_addr => pc_signal(12 downto 2),
+        inst_dout => instr_signal,
+        data_we => ram_wren_signal,
+        data_addr => ram_addr_signal,
+        data_din => ram_wrdata_signal,
+        data_dout => ram_rddata_signal
+    );
+    
+    control_component: control port map(
+        instruction => instr_signal,
+        alu_zero => alu_zero_signal,
+        
+        pc_sel => pc_sel_signal,
+        pc_lden => pc_lden_signal,
+        
+        alu_bin_sel => alu_bin_sel_signal,
+        alu_func => alu_func_signal,
+        
+        rf_wrdata_sel => rf_wrdata_sel_signal,
+        rf_b_sel => rf_b_sel_signal,
+        rf_wren => rf_wren_signal,
+        immed_ext => immed_ext_signal,
+        
+        byte_op => byte_op_signal,
+        mem_wren => mem_wren_signal
+    );
+
+end Structural;

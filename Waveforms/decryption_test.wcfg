@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="proc_sc_huge_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="constants" />
+            <top_module name="proc_sc_huge_test" />
+            <top_module name="vector_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4769874390fs"></ZoomStartTime>
+      <ZoomEndTime time="4771526391fs"></ZoomEndTime>
+      <Cursor1Time time="4770150000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/proc_sc_huge_test/active_clock" type="logic">
+      <obj_property name="ElementShortName">active_clock</obj_property>
+      <obj_property name="ObjectShortName">active_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_huge_test/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_huge_test/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/fetch_stage/program_counter/dataout" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">multiplexer_bus[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">multiplexer_bus[31:0][31:0]</obj_property>
+      <obj_property name="label">REGISTERS</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/datapath_component/decoding_stage/registers/multiplexer_bus[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/data_we" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+      <obj_property name="label">RAM_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2343" type="group">
+      <obj_property name="label">INPUT_DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[291]" type="array">
+         <obj_property name="ElementShortName">[291][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[291][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[290]" type="array">
+         <obj_property name="ElementShortName">[290][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[290][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[289]" type="array">
+         <obj_property name="ElementShortName">[289][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[289][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[288]" type="array">
+         <obj_property name="ElementShortName">[288][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[288][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[287]" type="array">
+         <obj_property name="ElementShortName">[287][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[287][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[286]" type="array">
+         <obj_property name="ElementShortName">[286][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[286][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[285]" type="array">
+         <obj_property name="ElementShortName">[285][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[285][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[284]" type="array">
+         <obj_property name="ElementShortName">[284][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[284][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[283]" type="array">
+         <obj_property name="ElementShortName">[283][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[283][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[282]" type="array">
+         <obj_property name="ElementShortName">[282][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[282][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[281]" type="array">
+         <obj_property name="ElementShortName">[281][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[281][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[280]" type="array">
+         <obj_property name="ElementShortName">[280][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[280][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[279]" type="array">
+         <obj_property name="ElementShortName">[279][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[279][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[278]" type="array">
+         <obj_property name="ElementShortName">[278][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[278][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[277]" type="array">
+         <obj_property name="ElementShortName">[277][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[277][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[276]" type="array">
+         <obj_property name="ElementShortName">[276][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[276][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[275]" type="array">
+         <obj_property name="ElementShortName">[275][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[275][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[274]" type="array">
+         <obj_property name="ElementShortName">[274][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[274][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[273]" type="array">
+         <obj_property name="ElementShortName">[273][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[273][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[272]" type="array">
+         <obj_property name="ElementShortName">[272][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[272][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[271]" type="array">
+         <obj_property name="ElementShortName">[271][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[271][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[270]" type="array">
+         <obj_property name="ElementShortName">[270][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[270][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[269]" type="array">
+         <obj_property name="ElementShortName">[269][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[269][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[268]" type="array">
+         <obj_property name="ElementShortName">[268][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[268][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[267]" type="array">
+         <obj_property name="ElementShortName">[267][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[267][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[266]" type="array">
+         <obj_property name="ElementShortName">[266][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[266][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[265]" type="array">
+         <obj_property name="ElementShortName">[265][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[265][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[264]" type="array">
+         <obj_property name="ElementShortName">[264][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[264][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[263]" type="array">
+         <obj_property name="ElementShortName">[263][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[263][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[262]" type="array">
+         <obj_property name="ElementShortName">[262][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[262][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[261]" type="array">
+         <obj_property name="ElementShortName">[261][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[261][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[260]" type="array">
+         <obj_property name="ElementShortName">[260][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[260][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[259]" type="array">
+         <obj_property name="ElementShortName">[259][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[259][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[258]" type="array">
+         <obj_property name="ElementShortName">[258][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[258][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[257]" type="array">
+         <obj_property name="ElementShortName">[257][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[257][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[256]" type="array">
+         <obj_property name="ElementShortName">[256][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[256][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2213" type="group">
+      <obj_property name="label">RESULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[362]" type="array">
+         <obj_property name="ElementShortName">[362][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[362][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[361]" type="array">
+         <obj_property name="ElementShortName">[361][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[361][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[360]" type="array">
+         <obj_property name="ElementShortName">[360][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[360][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[359]" type="array">
+         <obj_property name="ElementShortName">[359][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[359][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[358]" type="array">
+         <obj_property name="ElementShortName">[358][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[358][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[357]" type="array">
+         <obj_property name="ElementShortName">[357][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[357][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/proc_sc_huge_test/uut/random_access_memory/RAM[356]" type="array">
+         <obj_property name="ElementShortName">[356][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[356][31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

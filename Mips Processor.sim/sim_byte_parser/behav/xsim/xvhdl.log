@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/byte_parser.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'byte_parser'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_byte_parser/new/byte_parser_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'byte_parser_testbench'

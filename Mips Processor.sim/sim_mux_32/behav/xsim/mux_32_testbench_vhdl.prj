@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/utils.vhd" \
+"../../../../sources/mux_32.vhd" \
+"../../../../Mips Processor.srcs/sim_mux_32/new/mux_32_testbench.vhd" \
+
+# Do not sort compile order
+nosort
