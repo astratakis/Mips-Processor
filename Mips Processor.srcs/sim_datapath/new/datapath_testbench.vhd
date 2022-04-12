@@ -20,6 +20,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use work.constants.all;
 
 entity datapath_testbench is
 end datapath_testbench;
@@ -71,6 +72,67 @@ signal rf_b_sel: std_logic;
 signal rf_wren: std_logic;
 signal immed_ext: std_logic_vector(1 downto 0);
 
+signal mem_wren: std_logic;
+signal byte_op: std_logic;
+signal ram_rddata: std_logic_vector(31 downto 0);
+signal ram_wren: std_logic;
+signal ram_wrdata: std_logic_vector(31 downto 0);
+signal ram_addr: std_logic_vector(10 downto 0);
+
 begin
+
+    clock <= not clock after clock_period/2;
+
+    uut: datapath port map(
+        clock => clock,
+        reset => reset,
+        alu_bin_sel => alu_bin_sel,
+        alu_func => alu_func,
+        alu_zero => alu_zero,
+        pc_lden => pc_lden,
+        pc_sel => pc_sel,
+        pc => pc,
+        instruction => instruction,
+        rf_wrdata_sel => rf_wrdata_sel,
+        rf_b_sel => rf_b_sel,
+        rf_wren => rf_wren,
+        immed_ext => immed_ext,
+        mem_wren => mem_wren,
+        byte_op => byte_op,
+        ram_rddata => ram_rddata,
+        ram_wrdata => ram_wrdata,
+        ram_wren => ram_wren,
+        ram_addr => ram_addr
+    );
+    
+    stim_proc: process begin
+    
+        wait for 5 * clock_period;
+        reset <= '0';
+        
+        wait for clock_period;
+        
+        -- Perform Sign Extend (immed_ext = 01)
+        instruction <= "11000000000001010000000000001000";
+        alu_bin_sel <= '1';
+        alu_func <= x"0";
+        pc_lden <= '1';
+        pc_sel <= '0';
+        immed_ext <= "01";
+        
+        -- ALU out...
+        rf_wrdata_sel <= '0';
+        
+        -- rd must not be read...
+        rf_b_sel <= '0';
+        
+        -- Write result
+        rf_wren <= '1';
+        
+        mem_wren <= '0';
+        byte_op <= '0';
+        wait;
+    
+    end process;
 
 end Behavioral;

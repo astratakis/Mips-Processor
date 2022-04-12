@@ -1,9 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/utils.vhd" into library xil_defaultlib
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/alu.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'alu'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/exstage.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'exstage'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/mux_2.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'mux_2'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_exstage/new/exstage_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'exstage_testbench'

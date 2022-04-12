@@ -101,7 +101,7 @@ begin
         mem_out <= x"0000_dcba";
         rf_wrdata_sel <= '0';
         rf_b_sel	<= '0';
-        imm_ext <= "01";
+        imm_ext <= "10";
         wait for 200 ns;
         
         -- Sign-extend
@@ -111,7 +111,7 @@ begin
         mem_out <= x"0000_dcba";
         rf_wrdata_sel <= '0';
         rf_b_sel	<= '0';
-        imm_ext <= "10";
+        imm_ext <= "01";
         wait for 200 ns;
         
         -- Sign-extend and shift

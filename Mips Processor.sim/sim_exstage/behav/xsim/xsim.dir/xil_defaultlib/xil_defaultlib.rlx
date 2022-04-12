@@ -3,7 +3,7 @@
 May 27 2020
 20:09:33
 C:/Users/user/Mips Processor/Mips Processor.srcs/sim_exstage/new/exstage_testbench.vhd,1649067636,vhdl,,,,exstage_testbench,,,,,,,,
-C:/Users/user/Mips Processor/sources/alu.vhd,1649067324,vhdl,,,,alu,,,,,,,,
+C:/Users/user/Mips Processor/sources/alu.vhd,1649430079,vhdl,,,,alu,,,,,,,,
 C:/Users/user/Mips Processor/sources/exstage.vhd,1649067554,vhdl,,,,exstage,,,,,,,,
 C:/Users/user/Mips Processor/sources/mux_2.vhd,1649064649,vhdl,,,,mux_2,,,,,,,,
-C:/Users/user/Mips Processor/sources/utils.vhd,1649062913,vhdl,C:/Users/user/Mips Processor/sources/alu.vhd,,,constants;vector_array,,,,,,,,
+C:/Users/user/Mips Processor/sources/utils.vhd,1649062913,vhdl,C:/Users/user/Mips Processor/sources/alu.vhd,,,constants,,,,,,,,

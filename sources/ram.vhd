@@ -39,7 +39,7 @@ architecture syn of RAM is
      return ram;
  end function;
  
- signal RAM: ram_type := InitRamFromFile("program3.data");
+ signal RAM: ram_type := InitRamFromFile("decryptor.data");
 
  begin
      process (clk)
