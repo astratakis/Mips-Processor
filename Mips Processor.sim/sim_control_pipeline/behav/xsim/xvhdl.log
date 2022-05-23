@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/pipeline_sources/control_pipeline.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_pipeline'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_control_pipeline/new/control_pipeline_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_pipeline_testbench'

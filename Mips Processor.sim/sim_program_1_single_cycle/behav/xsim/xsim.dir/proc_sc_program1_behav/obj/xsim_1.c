@@ -81,6 +81,7 @@ IKI_DLLESPEC extern void execute_218(char*, char *);
 IKI_DLLESPEC extern void execute_221(char*, char *);
 IKI_DLLESPEC extern void execute_224(char*, char *);
 IKI_DLLESPEC extern void execute_220(char*, char *);
+IKI_DLLESPEC extern void execute_223(char*, char *);
 IKI_DLLESPEC extern void execute_228(char*, char *);
 IKI_DLLESPEC extern void execute_229(char*, char *);
 IKI_DLLESPEC extern void execute_230(char*, char *);
@@ -97,12 +98,12 @@ IKI_DLLESPEC extern void execute_241(char*, char *);
 IKI_DLLESPEC extern void execute_242(char*, char *);
 IKI_DLLESPEC extern void transaction_0(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void vhdl_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
-funcp funcTab[43] = {(funcp)execute_24, (funcp)execute_243, (funcp)execute_51, (funcp)execute_52, (funcp)execute_53, (funcp)execute_55, (funcp)execute_56, (funcp)execute_58, (funcp)execute_60, (funcp)execute_63, (funcp)execute_65, (funcp)execute_196, (funcp)execute_202, (funcp)execute_203, (funcp)execute_204, (funcp)execute_209, (funcp)execute_210, (funcp)execute_211, (funcp)execute_212, (funcp)execute_213, (funcp)execute_214, (funcp)execute_216, (funcp)execute_217, (funcp)execute_218, (funcp)execute_221, (funcp)execute_224, (funcp)execute_220, (funcp)execute_228, (funcp)execute_229, (funcp)execute_230, (funcp)execute_232, (funcp)execute_233, (funcp)execute_234, (funcp)execute_235, (funcp)execute_236, (funcp)execute_237, (funcp)execute_238, (funcp)execute_239, (funcp)execute_240, (funcp)execute_241, (funcp)execute_242, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback};
-const int NumRelocateId= 43;
+funcp funcTab[44] = {(funcp)execute_24, (funcp)execute_243, (funcp)execute_51, (funcp)execute_52, (funcp)execute_53, (funcp)execute_55, (funcp)execute_56, (funcp)execute_58, (funcp)execute_60, (funcp)execute_63, (funcp)execute_65, (funcp)execute_196, (funcp)execute_202, (funcp)execute_203, (funcp)execute_204, (funcp)execute_209, (funcp)execute_210, (funcp)execute_211, (funcp)execute_212, (funcp)execute_213, (funcp)execute_214, (funcp)execute_216, (funcp)execute_217, (funcp)execute_218, (funcp)execute_221, (funcp)execute_224, (funcp)execute_220, (funcp)execute_223, (funcp)execute_228, (funcp)execute_229, (funcp)execute_230, (funcp)execute_232, (funcp)execute_233, (funcp)execute_234, (funcp)execute_235, (funcp)execute_236, (funcp)execute_237, (funcp)execute_238, (funcp)execute_239, (funcp)execute_240, (funcp)execute_241, (funcp)execute_242, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback};
+const int NumRelocateId= 44;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/proc_sc_program1_behav/xsim.reloc",  (void **)funcTab, 43);
+	iki_relocate(dp, "xsim.dir/proc_sc_program1_behav/xsim.reloc",  (void **)funcTab, 44);
 	iki_vhdl_file_variable_register(dp + 156256);
 	iki_vhdl_file_variable_register(dp + 156312);
 

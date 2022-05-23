@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/utils.vhd" \
+"../../../../sources/alu.vhd" \
+"../../../../sources/byte_parser.vhd" \
+"../../../../sources/byte_replacer.vhd" \
+"../../../../multicycle_sources/control_mc.vhd" \
+"../../../../multicycle_sources/datapath_mc.vhd" \
+"../../../../sources/decoder_5to32.vhd" \
+"../../../../sources/decstage.vhd" \
+"../../../../sources/exstage.vhd" \
+"../../../../sources/ifstage.vhd" \
+"../../../../sources/immed_extender.vhd" \
+"../../../../sources/memstage.vhd" \
+"../../../../sources/mux_2.vhd" \
+"../../../../sources/mux_32.vhd" \
+"../../../../multicycle_sources/proc_mc.vhd" \
+"../../../../sources/ram.vhd" \
+"../../../../sources/register_32.vhd" \
+"../../../../sources/register_file.vhd" \
+"../../../../Mips Processor.srcs/sim_program_2_multi_cycle/new/proc_mc_program2.vhd" \
+
+# Do not sort compile order
+nosort

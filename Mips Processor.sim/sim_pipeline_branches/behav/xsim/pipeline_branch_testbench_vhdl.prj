@@ -1,0 +1,34 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sources/utils.vhd" \
+"../../../../sources/alu.vhd" \
+"../../../../pipeline_sources/branch_controler.vhd" \
+"../../../../sources/byte_parser.vhd" \
+"../../../../sources/byte_replacer.vhd" \
+"../../../../pipeline_sources/control_pipeline.vhd" \
+"../../../../pipeline_sources/d_flip_flop.vhd" \
+"../../../../pipeline_sources/datapath_pipeline.vhd" \
+"../../../../pipeline_sources/decode_register.vhd" \
+"../../../../sources/decoder_5to32.vhd" \
+"../../../../pipeline_sources/decstage_pipeline.vhd" \
+"../../../../pipeline_sources/execute_register.vhd" \
+"../../../../sources/exstage.vhd" \
+"../../../../pipeline_sources/fetch_register.vhd" \
+"../../../../pipeline_sources/forwarder.vhd" \
+"../../../../pipeline_sources/forwarding_unit.vhd" \
+"../../../../sources/ifstage.vhd" \
+"../../../../sources/immed_extender.vhd" \
+"../../../../pipeline_sources/interrupt_generator.vhd" \
+"../../../../pipeline_sources/memory_register.vhd" \
+"../../../../sources/memstage.vhd" \
+"../../../../sources/mux_2.vhd" \
+"../../../../sources/mux_32.vhd" \
+"../../../../pipeline_sources/mux_8.vhd" \
+"../../../../pipeline_sources/processor_pipeline.vhd" \
+"../../../../sources/ram.vhd" \
+"../../../../sources/register_32.vhd" \
+"../../../../sources/register_file.vhd" \
+"../../../../Mips Processor.srcs/sim_pipeline_branches/new/pipeline_branch_testbench.vhd" \
+
+# Do not sort compile order
+nosort

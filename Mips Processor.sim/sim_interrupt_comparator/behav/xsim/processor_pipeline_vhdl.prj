@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pipeline_sources/control_pipeline.vhd" \
+"../../../../pipeline_sources/control_signals_compressor.vhd" \
+"../../../../pipeline_sources/datapath_pipeline.vhd" \
+"../../../../sources/ram.vhd" \
+"../../../../pipeline_sources/processor_pipeline.vhd" \
+
+# Do not sort compile order
+nosort

@@ -2,8 +2,8 @@
 # Webtalk v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon Apr 11 22:24:51 2022
-# Process ID: 15912
+# Start of session at: Mon Apr 18 11:52:10 2022
+# Process ID: 15328
 # Current directory: C:/Users/user/Mips Processor/Mips Processor.sim/sim_program_1_single_cycle/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/user/Mips Processor/Mips Processor.sim/sim_program_1_single_cycle/behav/xsim/xsim.dir/proc_sc_program1_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/user/Mips Processor/Mips Processor.sim/sim_program_1_single_cycle/behav/xsim/webtalk.log

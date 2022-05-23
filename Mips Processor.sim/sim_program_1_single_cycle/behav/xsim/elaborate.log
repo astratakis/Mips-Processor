@@ -26,6 +26,7 @@ Compiling architecture structural of entity xil_defaultlib.immed_extender [immed
 Compiling architecture structural of entity xil_defaultlib.decstage [decstage_default]
 Compiling architecture structural of entity xil_defaultlib.alu [alu_default]
 Compiling architecture structural of entity xil_defaultlib.exstage [exstage_default]
+Compiling architecture structural of entity xil_defaultlib.byte_replacer [byte_replacer_default]
 Compiling architecture structural of entity xil_defaultlib.byte_parser [byte_parser_default]
 Compiling architecture structural of entity xil_defaultlib.memstage [memstage_default]
 Compiling architecture structural of entity xil_defaultlib.datapath [datapath_default]

@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_interrupt_comparator/new/interrupt_comparator_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'interrupt_comparator_testbench'

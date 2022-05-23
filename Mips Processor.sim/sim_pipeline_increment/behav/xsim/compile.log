@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/pipeline_sources/forwarder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'forwarder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/pipeline_sources/mux_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_8'

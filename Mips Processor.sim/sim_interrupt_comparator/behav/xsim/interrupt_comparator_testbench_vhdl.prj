@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pipeline_sources/interrupt_comparator.vhd" \
+"../../../../Mips Processor.srcs/sim_interrupt_comparator/new/interrupt_comparator_testbench.vhd" \
+
+# Do not sort compile order
+nosort

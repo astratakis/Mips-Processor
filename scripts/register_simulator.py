@@ -3,12 +3,114 @@
 # THIS WILL NOT DETECT ATERMINAL LOOPS
 # MAKE SURE THE CODE TERMINATES BEFORE SIMULATING
 
+from atexit import register
+
+
 data_segment = [
-    # "c^&1909587*($^# *&^ )(   )(* ^&^$a^(* 0954 23095 780(*&&^n+Y*(&%(_()  ++%^&#87--_)( 09 )(*O127639*^%#U(*& 89&^ f* 9*i8754 987 6@#$%^&*()n 6d)(**&^%*&^*&^%13928746 M^ 976 491823 *&%^%#$&*&_)*(E"
+    "c^&1909587*($^# *&^ )(   )(* ^&^$a^(* 0954 23095 780(*&&^n+Y*(&%(_()  ++%^&#87--_)( 09 )(*O127639*^%#U(*& 89&^ f* 9*i8754 987 6@#$%^&*()n 6d)(**&^%*&^*&^%13928746 M^ 976 491823 *&%^%#$&*&_)*(E"
 ]
 
 code_segment = [
-    
+    	"li r16 0",
+	"li r17 400",
+	"add r19 r0 r17",
+	"b 4",
+	"li r2 4",
+	"add r4 r0 r17",
+	"li r2 10",
+	"b -1",
+	"add r8 r0 r16",
+	"li r20 0",
+	"li r21 255",
+	"li r3 1",
+	"li r15 0",
+	"li r14 0",
+	"li r22 4",
+	"li r10 0",
+	"lui r23 8192",
+	"li r18 8",
+	"lw r13 r8 0",
+	"li r9 4",
+	"and r12 r21 r13",
+	"li r11 0",
+	"li r18 8",
+	"b 6",
+	"beq r12 r20 13",
+	"b 23",
+	"sub r9 r9 r3",
+	"bne r0 r9 -8",
+	"addi r8 r8 4",
+	"b -12",
+	"srl r13 r13 1",
+	"addi r11 r11 1",
+	"bne r11 r18 -3",
+	"b -10",
+	"srl r15 r15 1",
+	"addi r11 r11 1",
+	"bne r11 r18 -3",
+	"b 6",
+	"bne r0 r14 1",
+	"b -36",
+	"b 0",
+	"li r11 0",
+	"li r18 8",
+	"b -10",
+	"addi r14 r14 1",
+	"bne r14 r22 -5",
+	"sw r15 r19 0",
+	"add r14 r0 r0",
+	"b -45",
+	"li r24 65",
+	"li r25 91",
+	"beq r12 r24 17",
+	"addi r24 r24 1",
+	"beq r24 r25 1",
+	"b -4",
+	"li r24 97",
+	"li r25 123",
+	"beq r12 r24 11",
+	"addi r24 r24 1",
+	"beq r24 r25 20",
+	"b -4",
+	"srl r15 r15 1",
+	"addi r11 r11 1",
+	"bne r11 r18 -3",
+	"b 10",
+	"sll r12 r12 1",
+	"addi r11 r11 1",
+	"bne r11 r18 -3",
+	"b 3",
+	"li r11 0",
+	"li r18 24",
+	"b -7",
+	"li r11 0",
+	"li r18 8",
+	"b -14",
+	"add r15 r15 r12",
+	"addi r14 r14 1",
+	"li r10 0",
+	"beq r22 r14 3",
+	"b -54",
+	"beq r10 r0 10",
+	"b -56",
+	"sw r15 r19 0",
+	"addi r19 r19 4",
+	"li r14 0",
+	"add r15 r0 r0",
+	"b -61",
+	"srl r15 r15 1",
+	"addi r11 r11 1",
+	"bne r11 r18 -3",
+	"b 3",
+	"li r11 0",
+	"li r18 8",
+	"b -7",
+	"add r15 r15 r23",
+	"addi r14 r14 1",
+	"li r10 1",
+	"beq r22 r14 -16",
+	"b -73",
+    "b -1"
 ]
 
 # Ram will simulate the data segment only!!!
@@ -75,7 +177,7 @@ while True:
 
     parts = command.split(" ")
     instr = parts[0]
-
+    change = True
     # Execute instructions
     if command == "b -1":
         break
@@ -99,11 +201,14 @@ while True:
     elif instr == "addi":
         registers[reg(parts[1])] = (registers[reg(parts[2])] + int(parts[3]))
     elif instr == "b":
+        change = False
         pc = pc + (int(parts[1]) << 2)
     elif instr == "beq":
+        change = False
         if registers[reg(parts[1])] == registers[reg(parts[2])]:
             pc = pc + (int(parts[3]) << 2)
     elif instr == "bne":
+        change = False
         if registers[reg(parts[1])] != registers[reg(parts[2])]:
             pc = pc + (int(parts[3]) << 2)
     elif instr == "srl":
@@ -114,7 +219,7 @@ while True:
         registers[reg(parts[1])] = registers[reg(parts[2])] | int(parts[3])
     elif instr == "sw":
         pos = (registers[reg(parts[2])] + int(parts[3])) >> 2
-
+        change = False
         new_word = [0, 0, 0, 0]
         rd = registers[reg(parts[1])]
 
@@ -139,6 +244,13 @@ while True:
     else:
         print('Command not found... ', instr)
         exit(1)
+
+    print("PC:", pc+4, "Command:", command)
+    registers.reverse()
+    print(registers)
+    registers.reverse()
+
+    input()
 
 registers.reverse()
 

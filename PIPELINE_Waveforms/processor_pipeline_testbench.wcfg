@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_pipeline_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="constants" />
+            <top_module name="processor_pipeline_testbench" />
+            <top_module name="vector_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2445833fs"></ZoomStartTime>
+      <ZoomEndTime time="2868334fs"></ZoomEndTime>
+      <Cursor1Time time="3050000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="128"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/processor_pipeline_testbench/uut/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/branch_controller_component/dump" type="logic">
+      <obj_property name="ElementShortName">dump</obj_property>
+      <obj_property name="ObjectShortName">dump</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decode_register_instruction_signal" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">decode_register_instruction_signal[31:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_register_instruction_signal[31:0]</obj_property>
+      <obj_property name="label">Executing Instr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/pc" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="group187" type="group">
+      <obj_property name="label">RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/rf_write_data" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rf_write_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rf_write_data[31:0]</obj_property>
+         <obj_property name="label">write_data</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/address_write" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">address_write[4:0]</obj_property>
+         <obj_property name="ObjectShortName">address_write[4:0]</obj_property>
+         <obj_property name="label">address_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/rf_wren" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rf_wren</obj_property>
+         <obj_property name="ObjectShortName">rf_wren</obj_property>
+         <obj_property name="label">write enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/rf_wrdata_sel" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+         <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+         <obj_property name="label">write data sel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group194" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/random_access_memory/RAM[260]" type="array">
+         <obj_property name="ElementShortName">[260][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[260][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/random_access_memory/RAM[259]" type="array">
+         <obj_property name="ElementShortName">[259][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[259][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/random_access_memory/RAM[258]" type="array">
+         <obj_property name="ElementShortName">[258][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[258][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/random_access_memory/RAM[257]" type="array">
+         <obj_property name="ElementShortName">[257][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[257][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/random_access_memory/RAM[256]" type="array">
+         <obj_property name="ElementShortName">[256][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[256][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group183" type="group">
+      <obj_property name="label">Forwarded signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/forwarding_unit_component/forwarded_B" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">forwarded_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">forwarded_B[31:0]</obj_property>
+         <obj_property name="label">forwarded_B</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/forwarding_unit_component/forwarded_A" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">forwarded_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">forwarded_A[31:0]</obj_property>
+         <obj_property name="label">forwarded_A</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/execute_stage/immed" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">immed[31:0]</obj_property>
+         <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+         <obj_property name="label">Immediate</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group222" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/alu_out_signal" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">alu_out_signal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out_signal[31:0]</obj_property>
+         <obj_property name="label">ALU_out</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/execute_stage/alu_bin_sel" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">alu_bin_sel</obj_property>
+         <obj_property name="ObjectShortName">alu_bin_sel</obj_property>
+         <obj_property name="label">ALU_bin_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/execute_stage/alu_func" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+         <obj_property name="label">ALU_func</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/execute_stage/alu_zero" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">alu_zero</obj_property>
+         <obj_property name="ObjectShortName">alu_zero</obj_property>
+         <obj_property name="label">ALU_zero</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">REGISTERS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/registers/\registers(3)\/reg/dataout" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="label">R3</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/registers/\registers(4)\/reg/dataout" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="label">R4</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/registers/\registers(5)\/reg/dataout" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="label">R5</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/registers/\registers(10)\/reg/dataout" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="label">R10</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decodint_stage/registers/\registers(16)\/reg/dataout" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+         <obj_property name="label">R16</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/decode_register_component/reset" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="label">decode reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_pipeline_testbench/uut/datapath_component/fetch_register_component/reset" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="label">fetch_reset</obj_property>
+   </wvobject>
+</wave_config>
