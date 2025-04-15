@@ -2,10 +2,25 @@
 
 This repository contains the implementation of a Mips-inpired processor with a reduced instruction set. There are **3** different implementations of the processor. A basic single cycle, a more complex multi cycle and an advanced one with pipeline.
 
+## Instruction Types
+
+### R-Type
+
+| 6 bits | 5 bits | 5 bits | 5 bits | 5 bits | 6 bits |
+|--------|--------|--------|--------|--------|--------|
+| Opcode |   Rs   |   Rd   |   Rt   | unused |  Func  |
+
+### J-Type
+
+| 6 bits | 5 bits | 5 bits | 16 bits         |
+|--------|--------|--------|----------------|
+| Opcode |   Rs   |   Rd   | Immediate       |
+
+
 ## Instruction Set
 
 | Opcode      | Type | Func | Instr |  Description |
-|--------------| ---- | ------ | ----- | ----------------------------|
+|--------------| - | ------ | ----- | ----------------------------|
 | 100000 | R | 110000 | add | `RF[rd] ← RF[rs] + RF[rt]` |
 | 100000 | R | 110001 | sub | `RF[rd] ← RF[rs] - RF[rt]` |
 | 100000 | R | 110010 | and | `RF[rd] ← RF[rs] & RF[rt]` |
