@@ -16,7 +16,6 @@ This repository contains the implementation of a Mips-inpired processor with a r
 |--------|--------|--------|----------------|
 | Opcode |   Rs   |   Rd   | Immediate       |
 
-
 ## Instruction Set
 
 | Opcode      | Type | Func | Instr |  Description |
@@ -50,4 +49,3 @@ This repository contains the implementation of a Mips-inpired processor with a r
 | 001111 | J | - | lw | `RF[rd] ← MEM[RF[rs] + SE(Imm)]` |
 | 000111 | J | - | sb | `MEM[RF[rs] + SE(Imm)] ← RF[rd] 7...0` |
 | 011111 | J | - | sw | `MEM[RF[rs] + SE(Imm)] ← RF[rd]` |
-
