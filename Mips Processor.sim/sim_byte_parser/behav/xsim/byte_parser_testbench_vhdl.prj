@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../sources/byte_parser.vhd" \
-"../../../../Mips Processor.srcs/sim_byte_parser/new/byte_parser_testbench.vhd" \
-
-# Do not sort compile order
-nosort

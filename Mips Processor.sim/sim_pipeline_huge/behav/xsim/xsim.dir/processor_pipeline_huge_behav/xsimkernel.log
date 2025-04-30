@@ -1,7 +1,0 @@
-Running: xsim.dir/processor_pipeline_huge_behav/xsimk.exe -simmode gui -wdb processor_pipeline_huge_behav.wdb -simrunnum 0 -socket 54807
-Design successfully loaded
-Design Loading Memory Usage: 6296 KB (Peak: 6296 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 15036 KB (Peak: 15036 KB)
-Simulation CPU Usage: 937 ms

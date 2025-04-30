@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../sources/utils.vhd" \
-"../../../../pipeline_sources/d_flip_flop.vhd" \
-"../../../../Mips Processor.srcs/sim_d_dlip_flop/new/d_flip_flop_testbench.vhd" \
-
-# Do not sort compile order
-nosort

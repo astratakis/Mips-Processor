@@ -1,6 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/byte_replacer.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'byte_replacer'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/memstage.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'memstage'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/ram.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ram'

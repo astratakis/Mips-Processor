@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/sources/mux_2.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'mux_2'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_mux_2/new/mux_2_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'mux_2_testbench'

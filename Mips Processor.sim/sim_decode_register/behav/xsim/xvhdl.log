@@ -1,6 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/pipeline_sources/d_flip_flop.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'd_flip_flop'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/pipeline_sources/decode_register.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'decode_register'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/user/Mips Processor/Mips Processor.srcs/sim_decode_register/new/decode_register_testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'decode_register_testbench'

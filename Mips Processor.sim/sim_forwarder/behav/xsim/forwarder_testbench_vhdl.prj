@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../pipeline_sources/forwarder.vhd" \
-"../../../../Mips Processor.srcs/sim_forwarder/new/forwarder_testbench.vhd" \
-
-# Do not sort compile order
-nosort

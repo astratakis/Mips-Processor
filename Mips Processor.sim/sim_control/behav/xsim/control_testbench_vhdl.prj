@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../sources/control.vhd" \
-"../../../../Mips Processor.srcs/sim_control/new/control_testbench.vhd" \
-
-# Do not sort compile order
-nosort

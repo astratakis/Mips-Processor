@@ -1,9 +1,0 @@
-0.7
-2020.1
-May 27 2020
-20:09:33
-C:/Users/user/Mips Processor/Mips Processor.srcs/sim_decode_register/new/decode_register_testbench.vhd,1652873427,vhdl,,,,decode_register_testbench,,,,,,,,
-C:/Users/user/Mips Processor/pipeline_sources/d_flip_flop.vhd,1652874138,vhdl,,,,d_flip_flop,,,,,,,,
-C:/Users/user/Mips Processor/pipeline_sources/decode_register.vhd,1652874230,vhdl,,,,decode_register,,,,,,,,
-C:/Users/user/Mips Processor/sources/register_32.vhd,1649062545,vhdl,,,,register_32,,,,,,,,
-C:/Users/user/Mips Processor/sources/utils.vhd,1649062913,vhdl,C:/Users/user/Mips Processor/Mips Processor.srcs/sim_decode_register/new/decode_register_testbench.vhd,,,constants,,,,,,,,
