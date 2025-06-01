@@ -1,10 +1,15 @@
 # Mips Processor
 
-This repository contains the implementation of a Mips-inpired processor with a reduced instruction set. There are **3** different implementations of the processor. A basic single cycle, a more complex multi cycle and an advanced one with pipeline.
+This repository contains the implementation of a Mips-inpired processor with full instruction set. There are **3** different implementations of the processor. A basic single cycle, a more complex multi cycle and an advanced one with pipeline.
+
+## Register File
 
 ## Instruction Fetch Stage (ifstage)
 <img src="schematics/export/ifstage-schematic.drawio.svg" width="800"/>
 
+## Decode Stage (decstage)
+
+## Execute Stage (exstage)
 
 ## Instruction Types
 
