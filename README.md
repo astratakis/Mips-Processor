@@ -2,6 +2,10 @@
 
 This repository contains the implementation of a Mips-inpired processor with a reduced instruction set. There are **3** different implementations of the processor. A basic single cycle, a more complex multi cycle and an advanced one with pipeline.
 
+## Instruction Fetch Stage (ifstage)
+<img src="schematics/export/ifstage-schematic.drawio.svg" width="400"/>
+
+
 ## Instruction Types
 
 ### R-Type
